@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tab {
+          border: 1px solid #ccc;
+        }
+        
+        .content {
+          width: 200px;
+          height: 200px;
+          border: 1px solid #ccc;
+          display: none;
+        }
+    
+        
+        .content:target {
+          display: block;
+        }
+        
+      </style>
+    
+
+</head>
+
+<body>
+    <a href="#tab1" class="tab">tab1</a>
+    <a href="#tab2" class="tab">tab2</a>
+    <div id="tab1" class="content">
+        tab1中的内容
+    </div>
+    <div id="tab2" class="content">
+        tab2中的内容
+    </div>
+
+</body>
+
+</html>
